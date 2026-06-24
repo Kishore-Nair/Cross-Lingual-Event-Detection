@@ -1,4 +1,4 @@
-# 🌐 Cross-Lingual Event Detection
+# Cross-Lingual Event Detection
 
 > **Multilingual event detection across 168 event types using XLM-RoBERTa, trained on the MAVEN dataset translated into Hindi, Malayalam, and French via Meta's NLLB-200.**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 <p align="center">
   <img src="assets/architecture.png" alt="Architecture Diagram" width="850"/>
@@ -23,17 +23,17 @@ The pipeline consists of three stages:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🎯 **168 event types** from the MAVEN taxonomy (Catastrophe, Attack, Motion, etc.)
-- 🌍 **4 languages** — English, Hindi (हिन्दी), Malayalam (മലയാളം), French (Français)
-- 🧠 **XLM-RoBERTa** base encoder with projection head
-- 📰 **Live news detection** — fetch and classify real-time multilingual news via GNews API
-- ⚡ **Cross-lingual transfer** — train on any language, predict on all four
+-  **168 event types** from the MAVEN taxonomy (Catastrophe, Attack, Motion, etc.)
+-  **4 languages** — English, Hindi (हिन्दी), Malayalam (മലയാളം), French (Français)
+-  **XLM-RoBERTa** base encoder with projection head
+-  **Live news detection** — fetch and classify real-time multilingual news via GNews API
+-  **Cross-lingual transfer** — train on any language, predict on all four
 
 ---
 
-## 📊 Results
+## Results
 
 ### Performance Metrics
 
@@ -64,7 +64,7 @@ The pipeline consists of three stages:
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 | Property | Value |
 |----------|-------|
@@ -84,7 +84,7 @@ The pipeline consists of three stages:
 
 ---
 
-## 🔧 Model Architecture
+## Model Architecture
 
 ```
 XLM-RoBERTa Base (xlm-roberta-base)
@@ -105,7 +105,7 @@ Hardware: NVIDIA Tesla T4 (Kaggle)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install dependencies
 
@@ -164,7 +164,7 @@ predict_events("Le festival de musique a eu lieu dans le parc")
 
 ---
 
-## 📰 Live News Demo
+## Live News Demo
 
 The model can detect events in real-time multilingual news:
 
@@ -193,7 +193,7 @@ fetch_and_detect("tremblement de terre", lang="fr")
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Cross-Lingual-Event-Detection/
@@ -221,7 +221,7 @@ Cross-Lingual-Event-Detection/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -235,7 +235,7 @@ Cross-Lingual-Event-Detection/
 
 ---
 
-## 📝 Notebooks
+## Notebooks
 
 | Notebook | Description |
 |----------|-------------|
@@ -244,13 +244,13 @@ Cross-Lingual-Event-Detection/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [**MAVEN Dataset**](https://github.com/THU-KEG/MAVEN-dataset) — Wang et al., "MAVEN: A Massive General Domain Event Detection Dataset"
 - [**Meta NLLB-200**](https://ai.meta.com/research/no-language-left-behind/) — No Language Left Behind translation model
