@@ -1,0 +1,9 @@
+torch>=2.0
+transformers>=5.0
+sentence-transformers>=5.0
+scikit-learn
+tqdm
+numpy
+gnews
+newspaper4k
+lxml_html_clean
