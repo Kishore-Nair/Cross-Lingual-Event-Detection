@@ -29,7 +29,7 @@ The pipeline consists of three stages:
 -  **4 languages** — English, Hindi (हिन्दी), Malayalam (മലയാളം), French (Français)
 -  **XLM-RoBERTa** base encoder with projection head
 -  **Live news detection** — fetch and classify real-time multilingual news via GNews API
--  **Cross-lingual transfer** — train on any language, predict on all four
+-  **Cross-lingual transfer** — train on 4 languages, predict on all
 
 ---
 
